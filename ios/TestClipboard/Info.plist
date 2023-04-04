@@ -2,10 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BlackBerryDynamics</key>
+	<dict>
+		<key>CheckEventReceiver</key>
+		<false/>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>TestClipboard</string>
+	<string>LW</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -17,11 +22,34 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.2.3</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>$(PRODUCT_BUNDLE_IDENTIFIER).sc2.1.0.0.0</string>
+				<string>$(PRODUCT_BUNDLE_IDENTIFIER).sc2</string>
+				<string>$(PRODUCT_BUNDLE_IDENTIFIER).sc3.1.0.0.0</string>
+				<string>$(PRODUCT_BUNDLE_IDENTIFIER).sc3</string>
+				<string>com.good.gd.discovery</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
+	<key>CodePushDeploymentKey</key>
+	<string>$(CODE_PUSH_KEY_AM_IOS)</string>
+	<key>GDApplicationID</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>GDApplicationVersion</key>
+	<string>1.0.0.0</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -35,8 +63,43 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Access Apple Music so that app can play audio</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow camera usage to scan a QR code</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Help us provide a better experience and get in touch quickly with your clients by sharing your contacts with LeapXpert</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Enable authentication without a password.</string>
+	<key>NSMainNibFile</key>
+	<string>LaunchScreen</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Enable microphone access for voice calls</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>If you want to save a photo in a chat to your photo gallery, this allows the app to do so.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>If you want to share photos or videos from your device to a chat, this allows the app to access and get the files.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GothamBook-Italic.ttf</string>
+		<string>Gotham-Book.ttf</string>
+		<string>GothamMedium.ttf</string>
+		<string>icomoon.ttf</string>
+		<string>leapxpert-icons.ttf</string>
+		<string>icomoon.woff</string>
+		<string>UniversNextforHSBC-Bold.otf</string>
+		<string>UniversNextforHSBC-BoldTwo.otf</string>
+		<string>UniversNextforHSBC-Light.otf</string>
+		<string>UniversNextforHSBC-Medium.otf</string>
+		<string>UniversNextforHSBC-Regular.otf</string>
+		<string>UniversNextforHSBC-Thin.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -46,9 +109,12 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 </dict>

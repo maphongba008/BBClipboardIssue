@@ -8,12 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* TestClipboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TestClipboardTests.m */; };
+		045F8D7D29DC142B00318961 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045F8D7C29DC142B00318961 /* LaunchScreen.xib */; };
+		065ABDC6AD43CAA02E4FFFBB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91002B43D29F47E75498208A /* MessageUI.framework */; };
 		0C80B921A6F3F58F76C31292 /* libPods-TestClipboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-TestClipboard.a */; };
+		0E77192557559F17BC724C7C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA65AAAE029C0D7BE54DAC6C /* CFNetwork.framework */; };
+		12F5B49B8854ECF61918EACB /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82736357F98EE94ED49EFE9 /* LocalAuthentication.framework */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2AADD4A79241CCBD0A706ED7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142DC9FB5CD46EF914DF3E8D /* SystemConfiguration.framework */; };
+		342C69265BF10001C9E43699 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B51C79C3F0B2463B2144F48 /* Security.framework */; };
+		42805E9FE05DF50B3B88BFCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A9A4C8D080F96A1A52CA5FD /* InfoPlist.strings */; };
+		65E19DB5436BE094C416B0BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3643BFE80041FD91B33C1811 /* CoreGraphics.framework */; };
+		74809B9069956319FB07B11E /* DeviceCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229C6309C7EF2542CE96583F /* DeviceCheck.framework */; };
 		7699B88040F8A987B510C191 /* libPods-TestClipboard-TestClipboardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-TestClipboard-TestClipboardTests.a */; };
+		81603BC7A61D0B0FA9E0CBB4 /* development-tools-info.json in Resources */ = {isa = PBXBuildFile; fileRef = 40FB08D1ED1F15DB1E8C852E /* development-tools-info.json */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84634A7D100966C61ED10D00 /* libnetwork.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D26DDA3DC30A6D18D638C9EE /* libnetwork.tbd */; };
+		89896BAE58715C8ABE08E2B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B210D48F5957DA0E1162E230 /* CoreData.framework */; };
+		93883465C56D2BFC85173F58 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FF4A4A23208E97C4F6E83D /* WebKit.framework */; };
+		9DC5D97CDA4BDCB59B65D85D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C3EBEB471B082B6C2C207 /* CoreTelephony.framework */; };
+		B15D275E77DC75C8FD8E7486 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F393D1B80E8829938DDD815 /* MobileCoreServices.framework */; };
+		B7233154948F070593473908 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A781F85FFAEF3FFF0DA638 /* AuthenticationServices.framework */; };
+		BCEA8B0150A009E607554079 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCD1DF2431A515FA67A1A6E /* AssetsLibrary.framework */; };
+		D2790DB318FE6574903F0020 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B6833F1DD3C3524B3D8B84 /* SafariServices.framework */; };
+		EDDC1BA51B964E9F763BFF6D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F08FE0215861D0A0D079268 /* libz.tbd */; };
+		FE46FFD718874F80FF00265D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA29090FA1AEEA55D717BFA7 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +50,52 @@
 		00E356EE1AD99517003FC87E /* TestClipboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestClipboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TestClipboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClipboardTests.m; sourceTree = "<group>"; };
+		00FF4A4A23208E97C4F6E83D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		0224AACBC43CF97139500816 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/fr.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		045F8D7C29DC142B00318961 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		09A6603F38A48B16BC2AF35C /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/en.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0F393D1B80E8829938DDD815 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		13B07F961A680F5B00A75B9A /* TestClipboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestClipboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TestClipboard/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = TestClipboard/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TestClipboard/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TestClipboard/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TestClipboard/main.m; sourceTree = "<group>"; };
+		142DC9FB5CD46EF914DF3E8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-TestClipboard-TestClipboardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestClipboard-TestClipboardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229C6309C7EF2542CE96583F /* DeviceCheck.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceCheck.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/DeviceCheck.framework; sourceTree = DEVELOPER_DIR; };
+		330A7A8A8A8F9CA947BC3819 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/ja.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3643BFE80041FD91B33C1811 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-TestClipboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestClipboard.debug.xcconfig"; path = "Target Support Files/Pods-TestClipboard/Pods-TestClipboard.debug.xcconfig"; sourceTree = "<group>"; };
+		3B51C79C3F0B2463B2144F48 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		40FB08D1ED1F15DB1E8C852E /* development-tools-info.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = "development-tools-info.json"; path = "TestClipboard/Resources/development-tools-info.json"; sourceTree = SOURCE_ROOT; };
+		4EAD34CAF395E30D18F22BE5 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/da.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		4EB309B4C1BBA536CEE2F9E8 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/de.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		4FC6EFCD595E6D44C4B69558 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/it.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		53E51A8EE2539C9A7776CEFE /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/pt.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-TestClipboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestClipboard.release.xcconfig"; path = "Target Support Files/Pods-TestClipboard/Pods-TestClipboard.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-TestClipboard-TestClipboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestClipboard-TestClipboardTests.debug.xcconfig"; path = "Target Support Files/Pods-TestClipboard-TestClipboardTests/Pods-TestClipboard-TestClipboardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-TestClipboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestClipboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F08FE0215861D0A0D079268 /* libz.tbd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8162C89FF8D23E5FE3DA34E8 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/nl.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TestClipboard/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B6833F1DD3C3524B3D8B84 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
+		88A781F85FFAEF3FFF0DA638 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AuthenticationServices.framework; sourceTree = DEVELOPER_DIR; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-TestClipboard-TestClipboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestClipboard-TestClipboardTests.release.xcconfig"; path = "Target Support Files/Pods-TestClipboard-TestClipboardTests/Pods-TestClipboard-TestClipboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		91002B43D29F47E75498208A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		A82736357F98EE94ED49EFE9 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
+		B210D48F5957DA0E1162E230 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		BEAE47BE5647E98842DED66B /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		C97C3EBEB471B082B6C2C207 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		CA29090FA1AEEA55D717BFA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D118396D4D21357006C12811 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/es.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D26DDA3DC30A6D18D638C9EE /* libnetwork.tbd */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libnetwork.tbd; path = usr/lib/libnetwork.tbd; sourceTree = SDKROOT; };
+		D26FC9534CE2E42EA4D105BE /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/pt-PT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D3040AC93F237A25A675E1C1 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/ko.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DA65AAAE029C0D7BE54DAC6C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDCD1DF2431A515FA67A1A6E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
+		EF2028182C89F2CE84CAEF26 /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/resources/localization/sv.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +112,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-TestClipboard.a in Frameworks */,
+				93883465C56D2BFC85173F58 /* WebKit.framework in Frameworks */,
+				12F5B49B8854ECF61918EACB /* LocalAuthentication.framework in Frameworks */,
+				74809B9069956319FB07B11E /* DeviceCheck.framework in Frameworks */,
+				0E77192557559F17BC724C7C /* CFNetwork.framework in Frameworks */,
+				89896BAE58715C8ABE08E2B8 /* CoreData.framework in Frameworks */,
+				9DC5D97CDA4BDCB59B65D85D /* CoreTelephony.framework in Frameworks */,
+				FE46FFD718874F80FF00265D /* QuartzCore.framework in Frameworks */,
+				342C69265BF10001C9E43699 /* Security.framework in Frameworks */,
+				065ABDC6AD43CAA02E4FFFBB /* MessageUI.framework in Frameworks */,
+				2AADD4A79241CCBD0A706ED7 /* SystemConfiguration.framework in Frameworks */,
+				B15D275E77DC75C8FD8E7486 /* MobileCoreServices.framework in Frameworks */,
+				65E19DB5436BE094C416B0BE /* CoreGraphics.framework in Frameworks */,
+				BCEA8B0150A009E607554079 /* AssetsLibrary.framework in Frameworks */,
+				D2790DB318FE6574903F0020 /* SafariServices.framework in Frameworks */,
+				B7233154948F070593473908 /* AuthenticationServices.framework in Frameworks */,
+				EDDC1BA51B964E9F763BFF6D /* libz.tbd in Frameworks */,
+				84634A7D100966C61ED10D00 /* libnetwork.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +161,9 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				40FB08D1ED1F15DB1E8C852E /* development-tools-info.json */,
+				0A9A4C8D080F96A1A52CA5FD /* InfoPlist.strings */,
+				045F8D7C29DC142B00318961 /* LaunchScreen.xib */,
 			);
 			name = TestClipboard;
 			sourceTree = "<group>";
@@ -102,6 +174,9 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-TestClipboard.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-TestClipboard-TestClipboardTests.a */,
+				8C6898BCBC3C9744AC934548 /* iOS */,
+				6F08FE0215861D0A0D079268 /* libz.tbd */,
+				D26DDA3DC30A6D18D638C9EE /* libnetwork.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,6 +210,28 @@
 				00E356EE1AD99517003FC87E /* TestClipboardTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8C6898BCBC3C9744AC934548 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				00FF4A4A23208E97C4F6E83D /* WebKit.framework */,
+				A82736357F98EE94ED49EFE9 /* LocalAuthentication.framework */,
+				229C6309C7EF2542CE96583F /* DeviceCheck.framework */,
+				DA65AAAE029C0D7BE54DAC6C /* CFNetwork.framework */,
+				B210D48F5957DA0E1162E230 /* CoreData.framework */,
+				C97C3EBEB471B082B6C2C207 /* CoreTelephony.framework */,
+				CA29090FA1AEEA55D717BFA7 /* QuartzCore.framework */,
+				3B51C79C3F0B2463B2144F48 /* Security.framework */,
+				91002B43D29F47E75498208A /* MessageUI.framework */,
+				142DC9FB5CD46EF914DF3E8D /* SystemConfiguration.framework */,
+				0F393D1B80E8829938DDD815 /* MobileCoreServices.framework */,
+				3643BFE80041FD91B33C1811 /* CoreGraphics.framework */,
+				EDCD1DF2431A515FA67A1A6E /* AssetsLibrary.framework */,
+				81B6833F1DD3C3524B3D8B84 /* SafariServices.framework */,
+				88A781F85FFAEF3FFF0DA638 /* AuthenticationServices.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -218,6 +315,18 @@
 			knownRegions = (
 				en,
 				Base,
+				da,
+				de,
+				es,
+				fr,
+				it,
+				ja,
+				ko,
+				nl,
+				"pt-PT",
+				pt,
+				sv,
+				"zh-Hans",
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
@@ -242,8 +351,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045F8D7D29DC142B00318961 /* LaunchScreen.xib in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				81603BC7A61D0B0FA9E0CBB4 /* development-tools-info.json in Resources */,
+				42805E9FE05DF50B3B88BFCA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +537,29 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		0A9A4C8D080F96A1A52CA5FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EAD34CAF395E30D18F22BE5 /* InfoPlist.strings */,
+				4EB309B4C1BBA536CEE2F9E8 /* InfoPlist.strings */,
+				09A6603F38A48B16BC2AF35C /* InfoPlist.strings */,
+				D118396D4D21357006C12811 /* InfoPlist.strings */,
+				0224AACBC43CF97139500816 /* InfoPlist.strings */,
+				4FC6EFCD595E6D44C4B69558 /* InfoPlist.strings */,
+				330A7A8A8A8F9CA947BC3819 /* InfoPlist.strings */,
+				D3040AC93F237A25A675E1C1 /* InfoPlist.strings */,
+				8162C89FF8D23E5FE3DA34E8 /* InfoPlist.strings */,
+				D26FC9534CE2E42EA4D105BE /* InfoPlist.strings */,
+				53E51A8EE2539C9A7776CEFE /* InfoPlist.strings */,
+				EF2028182C89F2CE84CAEF26 /* InfoPlist.strings */,
+				BEAE47BE5647E98842DED66B /* InfoPlist.strings */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -487,18 +622,24 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TestClipboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
+					/usr/lib/swift,
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDK_DIR)/usr/lib/swift",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(inherited)",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapxpert.leap.work.emm;
 				PRODUCT_NAME = TestClipboard;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				VALIDATE_WORKSPACE = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -510,19 +651,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TestClipboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
+					/usr/lib/swift,
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDK_DIR)/usr/lib/swift",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+					"$(inherited)",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapxpert.leap.work.emm;
 				PRODUCT_NAME = TestClipboard;
 				SWIFT_VERSION = 5.0;
+				VALIDATE_WORKSPACE = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

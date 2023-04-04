@@ -1,7 +1,11 @@
+pod 'BlackBerryDynamics', :podspec => 'https://software.download.blackberry.com/repository/framework/dynamics/ios/11.0.1.137/BlackBerryDynamics-11.0.1.137.podspec'
+pod 'BbdRNBase', :path => '../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/BbdRNBase.podspec'
+
+
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-platform :ios, '11.0'
+platform :ios, '14.0'
 install! 'cocoapods', :deterministic_uuids => false
 
 target 'TestClipboard' do
@@ -28,10 +32,15 @@ target 'TestClipboard' do
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and
   # you should disable the next line.
-  use_flipper!()
+  #
+  # Flipper cannot be used together with BlackBerry Dynamics SDK for React Native on iOS
+  # in debug configuration as it disables some BlackBerry Dynamics functionality
+  # related to secure networking.
+  # use_flipper!()
 
   post_install do |installer|
-    react_native_post_install(installer)
+		system("node ../node_modules/BlackBerry-Dynamics-for-React-Native-Base/scripts/updatePods.js")
+   react_native_post_install(installer)
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
 end

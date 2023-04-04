@@ -22,7 +22,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:7.0.4")
+        classpath("com.android.tools.build:gradle:4.2.2")
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("de.undercouch:gradle-download-task:4.1.2")
         // NOTE: Do not place your application dependencies here; they belong
@@ -40,7 +40,11 @@ allprojects {
             // Android JSC is installed from npm
             url("$rootDir/../node_modules/jsc-android/dist")
         }
-        mavenCentral {
+        maven {
+          apply from: "$rootDir/../node_modules/BlackBerry-Dynamics-for-React-Native-Base/android/helper.gradle"
+          url getBbdMavenLocation
+      }
+      mavenCentral {
             // We don't want to fetch react-native from Maven Central as there are
             // older versions over there.
             content {
