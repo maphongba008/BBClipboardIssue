@@ -11,6 +11,7 @@ import React from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
 
 import Clipboard from 'BlackBerry-Dynamics-for-React-Native-Clipboard';
+import Input from 'BlackBerry-Dynamics-for-React-Native-TextInput';
 
 const App: () => Node = () => {
   return (
@@ -23,6 +24,12 @@ const App: () => Node = () => {
         }}>
         <Text>Test copy 1</Text>
       </TouchableOpacity>
+
+      <Input
+        style={{
+          borderWidth: 1,
+        }}
+      />
     </View>
   );
 };

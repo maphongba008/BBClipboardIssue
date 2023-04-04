@@ -112,6 +112,11 @@
         "name": "BlackBerry-Dynamics-for-React-Native-Clipboard",
         "version": "1.0.0",
         "type": "dependency"
+      },
+      {
+        "name": "BlackBerry-Dynamics-for-React-Native-TextInput",
+        "version": "2.0.0",
+        "type": "dependency"
       }
     ]
   }
