@@ -1237,6 +1237,11 @@
     sudo-prompt "^9.0.0"
     wcwidth "^1.0.1"
 
+"@react-native-community/clipboard@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/clipboard/-/clipboard-1.0.0.tgz#4af22adca4fc930207be2a76168de5345e528641"
+  integrity sha512-x+dHkJ+WvpFDh+OtZ55josS33ZNl8myfrULHY9jp2u+AaNKMT17N0MnX64FJWk27Jq+o6NUohHQ/xwQYIifIkg==
+
 "@react-native-community/eslint-config@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-config/-/eslint-config-2.0.0.tgz#35dcc529a274803fc4e0a6b3d6c274551fb91774"
@@ -1485,13 +1490,18 @@
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-BlackBerry-Dynamics-for-React-Native-Base@/Users/quynh/Documents/Projects/LeapXpert/TestClipboard/modules/BlackBerry-Dynamics-for-React-Native-Base:
+"BlackBerry-Dynamics-for-React-Native-Base@file:modules/BlackBerry-Dynamics-for-React-Native-Base":
   version "1.0.0"
   dependencies:
     findit "^2.0.0"
     fs-extra "^2.0.0"
     react-native-rename "2.4.1"
     shelljs "^0.7.0"
+
+BlackBerry-Dynamics-for-React-Native-Clipboard@/Users/quynh/Documents/Projects/LeapXpert/TestClipboard/modules/BlackBerry-Dynamics-for-React-Native-Clipboard:
+  version "1.0.0"
+  dependencies:
+    "@react-native-community/clipboard" "1.0.0"
 
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.6"

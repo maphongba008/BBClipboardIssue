@@ -54,6 +54,11 @@
     },
     "modules": [
       {
+        "name": "BlackBerry-Dynamics-for-React-Native-Base",
+        "version": "1.0.0",
+        "type": "dependency"
+      },
+      {
         "name": "react",
         "version": "17.0.2",
         "type": "dependency"
@@ -104,7 +109,7 @@
         "type": "devDependency"
       },
       {
-        "name": "BlackBerry-Dynamics-for-React-Native-Base",
+        "name": "BlackBerry-Dynamics-for-React-Native-Clipboard",
         "version": "1.0.0",
         "type": "dependency"
       }
