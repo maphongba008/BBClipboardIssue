@@ -20,7 +20,7 @@ const App: () => Node = () => {
         onPress={async () => {
           await Clipboard.setString('test 1');
           const copiedText = await Clipboard.getString();
-          console.log({copiedText});
+          alert('Copied text: ' + copiedText);
         }}>
         <Text>Test copy 1</Text>
       </TouchableOpacity>
