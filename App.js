@@ -25,6 +25,15 @@ const App: () => Node = () => {
         <Text>Test copy 1</Text>
       </TouchableOpacity>
 
+      <TouchableOpacity
+        onPress={async () => {
+          await Clipboard.setString('test 2');
+          const copiedText = await Clipboard.getString();
+          alert('Copied text 2: ' + copiedText);
+        }}>
+        <Text>Test copy 2</Text>
+      </TouchableOpacity>
+
       <Input
         style={{
           borderWidth: 1,

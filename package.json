@@ -10,9 +10,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "BlackBerry-Dynamics-for-React-Native-Base": "/Users/quynh/Documents/Projects/LeapXpert/TestClipboard/modules/BlackBerry-Dynamics-for-React-Native-Base",
-    "BlackBerry-Dynamics-for-React-Native-Clipboard": "/Users/quynh/Documents/Projects/LeapXpert/TestClipboard/modules/BlackBerry-Dynamics-for-React-Native-Clipboard",
-    "BlackBerry-Dynamics-for-React-Native-TextInput": "/Users/quynh/Documents/Projects/LeapXpert/TestClipboard/ui-components/BlackBerry-Dynamics-for-React-Native-TextInput",
+    "BlackBerry-Dynamics-for-React-Native-Base": "./modules/BlackBerry-Dynamics-for-React-Native-Base",
+    "BlackBerry-Dynamics-for-React-Native-Clipboard": "./modules/BlackBerry-Dynamics-for-React-Native-Clipboard",
+    "BlackBerry-Dynamics-for-React-Native-TextInput": "./ui-components/BlackBerry-Dynamics-for-React-Native-TextInput",
     "react": "17.0.2",
     "react-native": "0.68.2"
   },
