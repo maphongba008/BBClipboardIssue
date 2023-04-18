@@ -18,18 +18,26 @@ const App: () => Node = () => {
     <View style={{flex: 1, paddingTop: 100}}>
       <TouchableOpacity
         onPress={async () => {
-          await Clipboard.setString('test 1');
-          const copiedText = await Clipboard.getString();
-          alert('Copied text: ' + copiedText);
+          try {
+            await Clipboard.setString('test 1');
+            const copiedText = await Clipboard.getString();
+            console.log('Copied text: ' + copiedText);
+          } catch (e) {
+            console.log('error set string: ' + e);
+          }
         }}>
         <Text>Test copy 1</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
         onPress={async () => {
-          await Clipboard.setString('test 2');
-          const copiedText = await Clipboard.getString();
-          alert('Copied text 2: ' + copiedText);
+          try {
+            await Clipboard.setString('test 2');
+            const copiedText = await Clipboard.getString();
+            console.log('Copied text 2: ' + copiedText);
+          } catch (e) {
+            console.log('error set string 2: ' + e);
+          }
         }}>
         <Text>Test copy 2</Text>
       </TouchableOpacity>
