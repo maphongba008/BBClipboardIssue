@@ -8,10 +8,10 @@
 
 import type {Node} from 'react';
 import React from 'react';
-import {Text, TouchableOpacity, View} from 'react-native';
-
-import Clipboard from 'BlackBerry-Dynamics-for-React-Native-Clipboard';
-import Input from 'BlackBerry-Dynamics-for-React-Native-TextInput';
+import {Text, TouchableOpacity, View, TextInput} from 'react-native';
+import Clipboard from '@react-native-clipboard/clipboard';
+// import Clipboard from 'BlackBerry-Dynamics-for-React-Native-Clipboard';
+// import Input from 'BlackBerry-Dynamics-for-React-Native-TextInput';
 
 const App: () => Node = () => {
   return (
@@ -42,7 +42,7 @@ const App: () => Node = () => {
         <Text>Test copy 2</Text>
       </TouchableOpacity>
 
-      <Input
+      <TextInput
         style={{
           borderWidth: 1,
         }}
