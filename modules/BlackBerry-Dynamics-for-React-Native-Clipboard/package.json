@@ -12,6 +12,6 @@
   ],
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "@react-native-community/clipboard": "1.0.0"
+    "@react-native-clipboard/clipboard": "1.11.2"
   }
 }
