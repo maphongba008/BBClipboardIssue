@@ -1500,6 +1500,9 @@ BlackBerry-Dynamics-for-React-Native-Clipboard@./modules/BlackBerry-Dynamics-for
   dependencies:
     "@react-native-clipboard/clipboard" "1.11.2"
 
+BlackBerry-Dynamics-for-React-Native-Networking@./modules/BlackBerry-Dynamics-for-React-Native-Networking:
+  version "1.0.0"
+
 BlackBerry-Dynamics-for-React-Native-TextInput@./ui-components/BlackBerry-Dynamics-for-React-Native-TextInput:
   version "2.0.0"
   dependencies:

@@ -1,13 +1,14 @@
 
 pod 'RNCClipboard', :path => '../node_modules/@react-native-clipboard/clipboard'
-pod 'BlackBerryDynamics', :podspec => 'https://software.download.blackberry.com/repository/framework/dynamics/ios/11.0.1.137/BlackBerryDynamics-11.0.1.137.podspec'
+pod 'BlackBerryDynamics', :podspec => 'https://software.download.blackberry.com/repository/framework/dynamics/ios/11.1.0.62/BlackBerryDynamics-11.1.0.62.podspec'
 pod 'BbdRNBase', :path => '../node_modules/BlackBerry-Dynamics-for-React-Native-Base/ios/BbdRNBase.podspec'
+pod 'BbdJetfire', :podspec => 'https://raw.githubusercontent.com/blackberry/BlackBerry-Dynamics-iOS-Samples/master/WebSocket/BbdJetfire.podspec'
 
 
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-platform :ios, '14.0'
+platform :ios, '15.0'
 install! 'cocoapods', :deterministic_uuids => false
 
 target 'TestClipboard' do

@@ -9,9 +9,9 @@
 import type {Node} from 'react';
 import React from 'react';
 import {Text, TouchableOpacity, View} from 'react-native';
-
 import Clipboard from 'BlackBerry-Dynamics-for-React-Native-Clipboard';
 import Input from 'BlackBerry-Dynamics-for-React-Native-TextInput';
+import {fetch} from 'BlackBerry-Dynamics-for-React-Native-Networking';
 
 const App: () => Node = () => {
   return (
@@ -47,6 +47,19 @@ const App: () => Node = () => {
           borderWidth: 1,
         }}
       />
+
+      <TouchableOpacity
+        onPress={async () => {
+          console.log('start fetch');
+          fetch('https://jsonplaceholder.typicode.com/todos/1')
+            .then(x => x.json())
+            .then(x => console.log('fetch done', x))
+            .catch(e => {
+              console.log('fetch error', e);
+            });
+        }}>
+        <Text>FETCH TODO </Text>
+      </TouchableOpacity>
     </View>
   );
 };

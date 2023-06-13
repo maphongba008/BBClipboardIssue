@@ -11,15 +11,15 @@
       "yarn": "1.22.19",
       "watchman": "2023.01.16.00",
       "androidStudio": "2021.2",
-      "xcode": "14.0.1"
+      "xcode": "14.2"
     },
     "iosSdk": {
       "platforms": [
-        "DriverKit 21.4",
-        "iOS 16.0",
-        "macOS 12.3",
-        "tvOS 16.0",
-        "watchOS 9.0"
+        "DriverKit 22.2",
+        "iOS 16.2",
+        "macOS 13.1",
+        "tvOS 16.1",
+        "watchOS 9.1"
       ]
     },
     "androidSdk": {

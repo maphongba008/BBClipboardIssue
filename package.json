@@ -13,6 +13,7 @@
     "BlackBerry-Dynamics-for-React-Native-Base": "./modules/BlackBerry-Dynamics-for-React-Native-Base",
     "BlackBerry-Dynamics-for-React-Native-Clipboard": "./modules/BlackBerry-Dynamics-for-React-Native-Clipboard",
     "BlackBerry-Dynamics-for-React-Native-TextInput": "./ui-components/BlackBerry-Dynamics-for-React-Native-TextInput",
+    "BlackBerry-Dynamics-for-React-Native-Networking": "./modules/BlackBerry-Dynamics-for-React-Native-Networking",
     "react": "17.0.2",
     "react-native": "0.68.2"
   },
